@@ -1,0 +1,221 @@
+body
+{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@keyframes move{
+  from{  
+    position: absolute;
+    left: 100vw;
+    top: 0px;  
+  }
+  to
+  {
+    transform: translate(0px, -100vw);
+  }
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./Polices/cocogoose/Cocogoose\ Pro\ Light-trial.ttf") format('ttf');
+  src: url("./Polices/cocogoose/Cocogoose\ Pro-trial.ttf") format('ttf');
+}
+.App {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*Typography*/
+h1{
+  font-size: 18px;
+  font-family: "Cocogoose";
+}
+
+.titleHome, .paragraphHome
+{
+  width: 92vw;
+  margin: 0px auto;
+}
+.paragraphHome
+{
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 14px;
+}
+.squareLeft{
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.squareRight
+{
+  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.squareRight h2
+{
+  color: #EA526F;
+  font-family: "Cocogoose";
+  font-weight: lighter;
+}
+.titleHome
+{
+  margin-top: 46px;
+}
+/*Boutons*/
+.BoutonHome{
+  width: 95vw;
+  height: 142px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F7F7FF;
+  margin: 6px 0px;
+}
+.BoutonHome h2{
+  font-size: 12px;
+}
+
+/*Page : */
+.pageHeading1, .pageParagraph, .pageHeading2
+{
+  width: 90%;
+  margin: 0px auto;
+
+}
+.pageHeading1
+{
+  padding-top: 27px;
+  margin-bottom: 20px;
+}
+.pageParagraph
+{
+  font-size: 14px;
+  font-family: "Cocogoose";
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.pageHeading2
+{
+  font-size: 18px;
+  color:#EA526F;
+  font-family: "Cocogoose";
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.Transformation
+{
+  height: 20vh;
+  background-image: url("./images/Transformation3.png");
+}
+.Agence
+{
+  height: 20vh;
+  background-image: url("./images/agence2.png");
+}
+.Studios
+{
+  height: 20vh;
+  background-image: url("./images/Studio2.png");
+}
+.impact
+{
+  height: 20vh;
+  background-image: url("./images/impact.png");
+}
+.Monimalz
+{
+  width: 80vw;
+}
+.article
+{
+  background-color: #F7F7FF;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fontNone
+{
+  font-family: Futura;
+}
+a
+{
+  text-decoration: none;
+}
+.button
+{
+  width: 190px;
+  height: 45px;
+  box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1);
+  background-color: #F7F7FF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.FauxFooter, footer
+{
+  height: 64px;
+  border-radius: 15px 15px 0px 0px;
+  border: solid 1px white;
+  background-color: #F7F7FF;
+}
+footer
+{
+  position: fixed;
+  bottom: 0px;
+  box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  width: 100vw;
+}
+.back
+{
+  position: fixed;
+  top:20px;
+  left: 20px;
+}
