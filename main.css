@@ -231,3 +231,100 @@ footer a, footer img
   top:20px;
   left: 20px;
 }
+.profil
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profilPicture
+{
+  width: 115px;
+  height: 115px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.profil h2
+{
+  margin-bottom: 40px;
+  font-family: "Cocogoose";
+  font-weight: bold;
+  font-size: 18px;
+}
+.resume
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.resume h3
+{
+  margin: 15px auto;
+  font-size: 18px;
+  font-family: "Cocogoose";
+  font-weight: lighter;
+  width: 95vw;
+  text-align: left;
+}
+.lineProjects, .lineMore
+{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.element
+{
+  width: 100px;
+  height: 145px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.element p
+{
+  font-size: 12px;
+  text-align: center;
+  font-family: "cocogoose";
+  font-weight: lighter;
+}
+.myProfil
+{
+  background-color:#F0F0F8;
+}
+.icon
+{
+  width: 64px;
+}
+
+.title404
+{
+  font-size: 30px;
+  color: #EA526F;
+  font-weight: bold;
+  font-family: "Cocogoose";
+}
+.subtitle404
+{
+  font-size: 18px;
+  color: black;
+  font-weight: lighter;
+  font-family: "Cocogoose";
+}
+.mail404
+{
+  font-size: 18px;
+  color: black;
+  font-weight: lighter;
+  font-family: "Roboto";
+}
