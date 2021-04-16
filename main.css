@@ -306,7 +306,12 @@ footer a, footer img
 {
   width: 64px;
 }
-
+.p404
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .title404
 {
   font-size: 30px;
@@ -318,7 +323,7 @@ footer a, footer img
 {
   font-size: 18px;
   color: black;
-  font-weight: lighter;
+  font-weight: bold;
   font-family: "Cocogoose";
 }
 .mail404
