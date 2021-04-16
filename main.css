@@ -311,6 +311,8 @@ footer a, footer img
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  margin: 0px;
 }
 .title404
 {
