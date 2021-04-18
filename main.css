@@ -354,6 +354,10 @@ footer a, footer img
   color: #6969AA;
   width: 90%;
 }
+.Fablab_title
+{
+  color: #6969AA;
+}
 .Fablab
 {
   background-color:  #CACAE9;
@@ -426,4 +430,34 @@ footer a, footer img
   width: 90vw;
   text-align: left;
   margin: 0px auto;
+}
+.ArticleHeading2, .ArticleHeading3
+{
+  margin:0px;
+  margin-bottom: 5px;
+}
+.ArticleHeading3
+{
+  color: #A8A8AD;
+  margin-bottom: 20px;
+}
+.category
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section
+{
+  width: 90vw;
+  margin-bottom: 0px;
+}
+.gif_container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  background-color: #D9EEE1;
 }
