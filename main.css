@@ -243,7 +243,8 @@ footer a, footer img
 {
   width: 115px;
   height: 115px;
-  border-radius: 15px;
+  border-radius: 150px;
+  background-color: white;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   margin-top: 50px;
 }
@@ -261,13 +262,14 @@ footer a, footer img
   align-items: center;
   flex-direction: column;
 }
-.resume h3
+.projects h3
 {
   margin: 15px auto;
   font-size: 18px;
   font-family: "Cocogoose";
-  font-weight: lighter;
-  width: 95vw;
+  font-weight: bold;
+  width: 90vw;
+  margin: 10px auto;
   text-align: left;
 }
 .lineProjects, .lineMore
@@ -277,19 +279,21 @@ footer a, footer img
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 .element
 {
-  width: 100px;
-  height: 145px;
+  width: 150px;
+  height: 170px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 35px;
 }
 .element p
 {
@@ -300,7 +304,7 @@ footer a, footer img
 }
 .myProfil
 {
-  background-color:#F0F0F8;
+  background-color:#F7F7FF;
 }
 .icon
 {
@@ -334,4 +338,92 @@ footer a, footer img
   color: black;
   font-weight: lighter;
   font-family: "Roboto";
+}
+.element .vr
+{
+  width: 83px;
+}
+.element p
+{
+  font-size: 14px;
+  font-family: "cocogoose";
+  font-weight: bold;
+}
+.Fablab p
+{
+  color: #6969AA;
+  width: 90%;
+}
+.Fablab
+{
+  background-color:  #CACAE9;
+}
+.idy
+{
+  background-color: #89C7D3;
+}
+.idy p
+{
+  color: #33677F;
+}
+.incubator
+{
+  background-color: #8BDFC9;
+}
+.incubator p 
+{
+  color: #00AA7E;
+}
+.dataviz
+{
+  background-color: #EFDDB2;
+}
+.dataviz p 
+{
+  color: #F6AC00;
+}
+.data
+{
+  opacity: 0.4;
+}
+.menu
+{
+  width: 90vw;
+  display: flex;
+  height: 100px;
+  margin: 0px auto;
+  white-space: nowrap;
+  margin-bottom: 30px;
+  
+  
+}
+.menu .category
+{
+  height: 90px;
+  width: 90px;
+  background-color: #FAFAFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  margin-right: 14px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.icon2
+{
+  height: 47px;  
+}
+.category p
+{
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.menu-container h3
+{
+  width: 90vw;
+  text-align: left;
+  margin: 0px auto;
 }
