@@ -481,3 +481,112 @@ footer a, footer img
 {
   color: #33677F;
 }
+.lineSkills 
+{
+  width: 350px;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.lineSkills .element
+{
+  margin: 0px 7px;
+}
+/**SKILLS*/
+.html
+{
+  background-color: #ECBFB3;
+}
+.html p 
+{
+  color: #DC6C40;
+}
+.css
+{
+  background-color: #95C1E3;
+}
+.css p 
+{
+  color: #0170BA;
+}
+.js
+{
+  background-color: #E5D796
+}
+.js p
+{
+  color: #E7C421;
+}
+.react
+{
+  background-color: #B0E0ED
+}
+.react p
+{
+  color: #61DAFB;
+}
+.node
+{
+  background-color: #9FA5A9
+}
+.node p
+{
+  color: #37474F;
+}
+.skill
+{
+  width: 120px;
+  height: 140px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-right: 20px;
+}
+.js img
+{
+  height: 64px;
+}
+.design
+{
+  background-color: white;
+}
+.design img
+{
+  height: 60px;
+}
+.Fondamentale
+{
+  background-color: #B2C6EF;
+}
+.Fondamentale p 
+{
+  color: #6699FF;
+}
+.online
+{
+  background-color: #E9AD99;
+}
+.online p 
+{
+  color: #F15A29;
+}
+.communication
+{
+  background-color: #ABD3D8;
+}
+.communication p 
+{
+  color: #56B8C5;
+}
+.analytics
+{
+  background-color: #EBBB8A;
+}
+.analytics p 
+{
+  color: #F17903;
+}
