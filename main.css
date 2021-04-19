@@ -21,7 +21,15 @@ body
     transform: translate(0px, -100vw);
   }
 }
-@font-face {font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+@font-face {
+  font-family: "COCOGOOSE"; 
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); 
+}
 .App {
   display: flex;
   justify-content: flex-start;
@@ -66,7 +74,7 @@ body
 /*Typography*/
 h1{
   font-size: 18px;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
 }
 
 .titleHome, .paragraphHome
@@ -98,7 +106,7 @@ h1{
 .squareRight h2
 {
   color: #EA526F;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
   font-weight: bold;
 }
 .titleHome
@@ -144,7 +152,7 @@ h1{
 {
   font-size: 18px;
   color:#EA526F;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -252,7 +260,7 @@ footer a, footer img
 .profil h2
 {
   margin-bottom: 40px;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
   font-weight: bold;
   font-size: 18px;
 }
@@ -267,7 +275,7 @@ footer a, footer img
 {
   margin: 15px auto;
   font-size: 18px;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
   font-weight: bold;
   width: 90vw;
   margin: 10px auto;
@@ -300,7 +308,7 @@ footer a, footer img
 {
   font-size: 12px;
   text-align: center;
-  font-family: "cocogoose";
+  font-family: "Roboto";
   font-weight: lighter;
 }
 .myProfil
@@ -324,14 +332,14 @@ footer a, footer img
   font-size: 30px;
   color: #EA526F;
   font-weight: bold;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
 }
 .subtitle404
 {
   font-size: 18px;
   color: black;
   font-weight: bold;
-  font-family: "Cocogoose";
+  font-family: "COCOGOOSE";
 }
 .mail404
 {
@@ -347,7 +355,7 @@ footer a, footer img
 .element p
 {
   font-size: 14px;
-  font-family: "cocogoose";
+  font-family: "Roboto";
   font-weight: bold;
 }
 .Fablab p
@@ -548,7 +556,7 @@ footer a, footer img
 }
 .skill p 
 {
-  font-family: "cocogoose";
+  font-family: "Roboto";
   font-weight: bold;
 }
 .js img
