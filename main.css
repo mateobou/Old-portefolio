@@ -607,3 +607,11 @@ footer a, footer img
 {
   margin: 0px;
 }
+ul
+{
+  width: 95vw;
+}
+li
+{
+  font-size: 14px;
+}
