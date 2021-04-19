@@ -549,6 +549,11 @@ footer a, footer img
   margin-right: 20px;
   text-align: center;
 }
+.skill p 
+{
+  font-family: "cocogoose";
+  font-weight: bold;
+}
 .js img
 {
   height: 64px;
@@ -592,4 +597,8 @@ footer a, footer img
 .analytics p 
 {
   color: #F17903;
+}
+.section.projets p 
+{
+  margin: 0px;
 }
