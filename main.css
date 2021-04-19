@@ -22,8 +22,10 @@ body
 }
 @font-face {
   font-family: "Cocogoose";
-  src: url("./Polices/cocogoose/Cocogoose\ Pro\ Light-trial.ttf") format('ttf');
-  src: url("./Polices/cocogoose/Cocogoose\ Pro-trial.ttf") format('ttf');
+  src: url("./Polices/cocogoose/Cocogoose\ Pro\ Light-trial.ttf") format('ttf'),
+  url("./Polices/cocogoose/Cocogoose\ Pro\ Light-trial.woff") format('woff');
+  src: url("./Polices/cocogoose/Cocogoose\ Pro-trial.ttf") format('ttf'),
+  url("./Polices/cocogoose/Cocogoose\ Pro-trial.woff") format('woff');
 }
 .App {
   display: flex;
