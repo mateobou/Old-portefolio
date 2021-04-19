@@ -401,9 +401,11 @@ footer a, footer img
   height: 100px;
   margin: 0px auto;
   white-space: nowrap;
-  margin-bottom: 30px;
-  
-  
+  margin-bottom: 30px; 
+}
+.menu a 
+{
+  color: black;
 }
 .menu .category
 {
