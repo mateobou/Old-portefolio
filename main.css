@@ -273,7 +273,7 @@ footer a, footer img
   align-items: center;
   flex-direction: column;
 }
-.projects h3
+.projects h3,.menu-container h3
 {
   margin: 15px auto;
   font-size: 18px;
@@ -468,11 +468,7 @@ footer a, footer img
 }
 .gif_container
 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 90vw;
-  background-color: #D9EEE1;
+  width: 90vw;;
 }
 .section iframe
 {
