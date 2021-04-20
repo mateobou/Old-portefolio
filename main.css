@@ -611,6 +611,7 @@ ul
 }
 li
 {
+  width: 80vw;
   font-size: 1.2em;
   font-family: 'Roboto';
   margin: 0px;
