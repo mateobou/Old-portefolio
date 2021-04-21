@@ -227,6 +227,7 @@ footer
   display: flex;
   flex-direction: row;
   justify-content:space-around;
+  align-items: flex-end;
 }
 
 footer a, footer img
@@ -473,6 +474,9 @@ footer a, footer img
 .section iframe
 {
   width: 90vw;
+}
+iframe {
+  margin-bottom: 20px;
 }
 .section h3 
 {
