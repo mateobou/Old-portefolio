@@ -216,6 +216,7 @@ a
   border-radius: 15px 15px 0px 0px;
   border: solid 1px white;
   background-color: #F7F7FF;
+  
 }
 footer
 {
@@ -227,12 +228,20 @@ footer
   display: flex;
   flex-direction: row;
   justify-content:space-around;
-  align-items: flex-end;
+  align-items: center;
 }
 
 footer a, footer img
 {
   width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+.footer a
+{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -643,4 +652,16 @@ a
 .none
 {
   display: none;
+}
+.blue
+{
+  color: #2E3A59;
+  font-family: "Roboto";
+  margin: 0px;
+  font-size: 23px;
+  font-weight: bolder;
+}
+.blueS
+{
+  font-weight: bold;
 }
