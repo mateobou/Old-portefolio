@@ -630,3 +630,17 @@ a
   color: #EA526F;
   font-size: 18px;
 }
+.bandeau
+{
+  height: 7vh;
+  background-color: #06D6A0;
+  position: fixed;
+  bottom: 64px;
+  width: 100vw;
+  color: white;
+  text-align: center;
+}
+.none
+{
+  display: none;
+}
