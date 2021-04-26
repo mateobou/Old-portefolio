@@ -144,7 +144,7 @@ h1{
 }
 .pageParagraph
 {
-  font-size: 1.2em;
+  font-size: 15px;
   font-family: Roboto;
   margin-bottom: 20px;
 }
@@ -318,7 +318,7 @@ footer a, footer img
 }
 .element p
 {
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   font-family: "Roboto";
   font-weight: lighter;
@@ -625,7 +625,7 @@ ul
 li
 {
   width: 80vw;
-  font-size: 1.2em;
+  font-size: 14px;
   font-family: 'Roboto';
   margin: 0px;
 }
@@ -633,13 +633,13 @@ a
 {
   color: #EA526F;
   margin-bottom: 20px;
-  font-size: 1em;
+  font-size: 14px;
   font-family: "Roboto";
 }
 .section h3
 {
   color: #EA526F;
-  font-size: 18px;
+  font-size: 1.3em;
 }
 .bandeau
 {
@@ -666,4 +666,8 @@ a
 .blueS
 {
   font-weight: bold;
+}
+h3
+{
+  font-size: 16px;
 }
