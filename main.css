@@ -625,7 +625,7 @@ ul
 li
 {
   width: 80vw;
-  
+  font-size: 1.2em;
   font-family: 'Roboto';
   margin: 0px;
 }
@@ -633,6 +633,8 @@ a
 {
   color: #EA526F;
   margin-bottom: 20px;
+  font-size: 1em;
+  font-family: "Roboto";
 }
 .section h3
 {
